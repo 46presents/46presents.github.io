@@ -1,0 +1,241 @@
+body{
+	background: none repeat scroll 0 0 ;
+	font-family: 'Odibee Sans', cursive;
+	font-size: 15px;
+	font-weight: 400
+	line-height:1.5cm;
+	
+} 
+
+.inner_main_menu {margin: auto; width: 1170px; }
+.inner_main_menu ul{margin: 0; padding: 0; list-style: none; text-align: right;} 
+.inner_main_menu ul li{float: none; display: inline-block; }
+.inner_main_menu ul li:nth-child(1){ float: left;}
+.inner_main_menu ul li:nth-child(2){ float: left;}
+.inner_main_menu ul li:nth-child(3){ float: left;}
+.inner_main_menu ul li a{color:black ;font-size: 20px; text-transform: uppercase; text-decoration: none; display: block; padding: 20px 20px;}
+.inner_main_menu ul li a:hover{color: red;}
+#main_menu{width: 30%; position: relative; padding-top: 53px;}
+.logo_area{width: 300px; height: 300px; position: absolute; left: 50%; top: 0; content: ""; margin-left: 330px;  }
+
+
+
+
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+
+
+
+
+
+h1 {
+	font-size: 20px;
+	margin: 0px;
+	padding: 10px;
+	font-family: 'Odibee Sans', cursive;
+	margin-bottom: 0;
+	margin-left: 172%;
+	margin-right: -307%;
+	}
+
+h2{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 20%;
+	font-size: 15px;
+	width: ;
+	margin-left: 72%;
+	margin-right: -307%;
+	text-decoration: none;
+}
+h3{
+	margin-right: 30%;
+	margin-left: 30%;
+	margin-bottom: 10%;
+}
+h4{ 
+ margin-right: -163%;
+ margin-left: 45%;
+margin-bottom:10%;
+margin-top: 36%;
+font-size: 240%;
+
+}
+
+p{
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-right: -163%;
+    margin-left: 30%; 
+}	
+
+
+
+
+
+	.slider-frame{
+		overflow: hidden;
+		height: 800px;
+		width: 1200px;
+		margin-left: 60px;
+		margin-top: 60px;
+	}
+
+	/***********SLIDE ANIMATION-------------*/
+
+
+@-webkit-keyframes slide_animation{
+	0% {left:0px;}
+	10% {left:0px;}
+	20% {left:1200px;}
+	30% {left:1200px;}
+	40% {left:2400px;}
+	50% {left: 2400px;}
+	60% {left:1200px;}
+	70% {left:1200px;}
+	80% {left:0px;}
+	90% {left:0px;}
+	100% {left:0px;}
+}
+
+.slide-images{
+	weidth:3600px;
+	height: 800px;
+	margin: 0 0 0 -2400px;
+	position: relative;
+	-webkit-animation-name:slide_animation;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
+}
+
+.img-container{
+	height: 800px;
+	width: 1200px;
+	position: relative;
+	float: left;
+}
+
+.artgallery{
+	margin: 10px 50px;
+	display: inline-block;
+
+}
+
+.artgallery img{
+	width: 230px;
+	padding: 17px;
+	display: inline-block;
+	filter: grayscale(100%);
+	transition: 1s;
+	margin-left: 140%;
+	margin-top: 30px;
+}
+.artgallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.2);
+
+}
+
+
+
+
+
+.center {
+  margin: auto;
+  margin-left: 114%;
+  width: 60%;
+  height: 20%;
+  border: 1px solid red;
+  padding: 10px;
+
+}
+;
+}
+
+input[type=text], select, textarea {
+  width: 188%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  flex: 
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: -37px;
+  padding: 17px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+
+}
+
+h5 {
+    font-size: 30px;
+	margin-left: 50%;
+	margin-bottom: 60%;
+	width: 800px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 0px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  width: 85px;
+  margin-bottom: 30px;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+
+
+
+
+ 

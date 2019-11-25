@@ -1,0 +1,85 @@
+
+body {
+	background-image: linear-gradient(to bottom right, black,black,black,black);
+	background-color: #4B0082;
+	color: #FFFF00;
+	font-family: 'Big Shoulders Display', cursive;
+}
+
+h1 {
+	font-size: 90px;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Stalinist One', cursive;
+	margin-bottom: 0;
+}
+img {
+	height: 1000
+	width: 1000;
+	display: flex;
+	border-radius: 50%
+}
+
+
+.image2 {
+	height: 100px;
+	width:100px;
+	max-height: 20;
+
+}
+.image3 {
+	height: 100px;
+	width: 100px;
+	color: #4B0082 
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	/*width: 200px; */
+	background-color: black;
+	overflow: hidden;
+	background-color: #48047d;
+	position: fixed; 
+	font-family: 'Turret Road', cursive;
+
+
+}
+
+li a {
+	display:block;
+	color:coral;
+	text-align: center;
+	padding: 8px 105px;
+	text-decoration: none;
+	font-family: 'Turret Road', cursive;
+
+}
+li a:hover {
+	background-color: yellow;
+	color: #48047d;
+	font-family: 'Turret Road', cursive;
+
+
+}
+li{
+	float: left;
+	font-family: 'Turret Road', cursive;
+
+}
+li a{
+	text-align: center;
+	font-family: 'Turret Road', cursive;
+
+}
+.active {
+	background-color: ;
+}
+p {
+	color: white;
+	font-size: 30px;
+	font-family: 'Turret Road', cursive;
+	text-align: center
+}
